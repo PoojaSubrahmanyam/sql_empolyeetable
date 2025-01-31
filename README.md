@@ -20,12 +20,7 @@ The project utilizes three main tables:
 
 ## 🔍 **Key Queries and Objectives**
 
-### 1️⃣ Categorize the count of each department job-wise  
-```sql
-SELECT deptno, job, COUNT(*) AS job_count
-FROM emp
-GROUP BY deptno, job
-ORDER BY deptno;
+
 -- Categorize the count of each department job-wise
 ```sql
 SELECT deptno, job, COUNT(*) AS job_count
